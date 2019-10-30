@@ -1,18 +1,51 @@
 .wraper{
     display: flex;
     flex-direction: column;
-    /* align-items: stretch; */
 }
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: red;
+    height: 67px;
+    align-items: center;
 }
-.section-1-img{
-    max-width: 1352px;
+header div{
+    display: flex;
 }
-.section-1, .section-1-img{
-    max-width: 1352px;
-    width: 100%;
-    margin: 0 auto;
+.mail-phone{
+    display: flex;
+    /* რომელი ჯობია */
+    /* width: 353px;
+    justify-content: space-between; */
 }
+.mail{
+    margin-right: 38px;
+}
+.fa-envelope{
+    margin-right: 12px;
+}
+.fa-phone-alt{
+    margin-right: 12px;
+}
+.my-account{
+    margin-right: 35px;
+}
+.fa-search{
+    margin-right: 28px;
+}
+.wax{
+    font-size: 24px;
+    color: red;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* section, header, footer{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+} */
