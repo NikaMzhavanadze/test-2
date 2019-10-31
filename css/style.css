@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
 }
+
+/* header */
 header{
     display: flex;
     justify-content: space-around;
-    background-color: red;
     height: 67px;
     align-items: center;
+    /* position: fixed; */
 }
 header div{
     display: flex;
@@ -35,17 +37,337 @@ header div{
 }
 .wax{
     font-size: 24px;
+    text-transform: uppercase;
     color: red;
+}
+/* end header */
+
+/* .section-1 */
+.section-1{
+    background-image: url(../img/image-hero-poster.jfif);
+    width: 100%;
+    height: 807px;
+    background-size: cover;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+nav{
+    margin-top: 40px;
+    margin-bottom: 172px;
+    width: 370px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.line-1{
+    margin-bottom: 30px;
+    font-size: 16px;
     text-transform: uppercase;
 }
+.line-2{
+    margin-bottom: 45px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.line-3{
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.line-4{
+    margin-bottom: 75px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.line-5{
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: black;
+    width: 180px;
+    line-height: 50px;
+}
+.line-5 p{
+    text-align: center;
+}
+/* end section-1*/
 
+/* section-2 */
+.section-2{
+    display: flex;
+    justify-content: flex-end;
+    height: 382px;
+    margin-right: 65px;
+    margin-top: 25px;
+}
+.left-div{
+    width: 100%;
 
+}
+.right-div{
+    width: 100%;
+    /* background-image: url(../img/bag-1.jpg); */
+    /* padding: 25px ; */
+}
+.right-div img{
+    display: block;
+    width: 518px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.left-p-1{
+    margin-bottom: 27px;
+}
+.left-p-2{
+    margin-bottom: 63px;
+}
+.left-p-1, .left-p-2{
+    font-size: 40px;
+}
+.left-p-3{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.left-p-1, .left-p-2, .left-p-div{
+    margin-left: 95px;
+}
+.left-p-div{
+    background-color: black;
+    width: 180px;
+    line-height: 50px;
+}
+/* end section-2 */
 
+/* section-3 */
+.section-3{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:60px;
+    margin-right: 65px;
+    margin-top: 118px;
+}
+.section-3-wraper{
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.section-3-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3D179;
+    width: 195px;
+    height: 308px;
+    margin-left: 42px;
+}
+.shop{
+    margin-left: 10px;
+}
+.hat{
+    background-color: #E56453;
+}
+.section-3-img{
+    width: 33px;
+    margin-top: 57px;
+    margin-bottom: 40px;
+}
+.hat-img{
+    width:50px;
+}
+.people{
+    width: 50px;
+}
+.section-3-line-1{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.section-3-line-2{
+    margin-bottom: 15px;
+}
+.section-3-line-2, .section-3-line-3{
+    color: #949494;
+    font-size: 12px;
+}
+/* end section-3 */
 
+/* section-4 */
+.section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 210px;
+}
+.section-4-left-div{
+    background-image: url(../img/section-1-image.jpg);
+    background-size: cover;
+    width: 542px;
+    height: 350px;
+    margin-left: 10px;
+}
+.section-4-right-div{
+    margin-left: 100px;
+}
+.section-4-p{
+    font-size: 14px;
+    color: #949494;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.wax-section-4{
+    font-size: 40px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.section-4-explore{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+/* end section-4 */
 
+/* section-5 */
+.section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBEDE0;
+    margin-top: 155px;
+}
+.section-5-top-wraper img, .section-5-bottom-wraper img{
+    margin-right: 30px;
+    width: 362px;
+    height: 264px;
+}
+.section-5 p{
+    font-size: 28px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+.section-5-bottom-wraper{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.last-child{
+    margin-right: 0;
+}
 
-/* section, header, footer{
-    border: 2px solid black;
-    width: 300px;
-    height: 300px;
-} */
+/* end section-5 */
+
+/* section-6 */
+.section-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-6-div-1{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-bottom: 92px;
+}
+.section-6 p{
+    font-size: 20px;
+}
+.input-field{
+    width: 462px;
+    height: 48px;
+    /* margin-right: -10px; */
+}
+.input-button{
+    width: 140px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+form{
+    margin-top: 25px;
+    margin-bottom: 160px;
+}
+/* end section-6 */
+
+/* footer */
+footer{
+    display: flex;
+    background-color: #E5DEDE;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+footer li{
+    display: flex;
+}
+.ul-wax{
+    font-size: 40px;
+    color: red;
+    margin-bottom: 60px;
+    margin-right: 247px;
+    text-transform: uppercase;
+
+}
+.li-wax{
+    margin-bottom: 30px;
+    font-size: 14px;
+    /* margin-right: 14px; */
+}
+.fa-map-marker-alt{
+    margin-right: 14px;
+}
+.fa-envelope, .fa-phone-alt, .fa-map-marker-alt{
+    color: #BCBCBC;
+}
+.information{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+.information-li{
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #777777;
+}
+.categories{
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-right: 25px;
+}
+.categories-li{
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #777777;
+}
+.no-title-1{
+    margin-top: 134px;
+}
+.no-title-2{
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #777777;
+}
+.my-account{
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-right: 25px;
+}
+.my-account-li{
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: #777777;
+
+}
+/* end footer */
