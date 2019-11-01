@@ -101,14 +101,14 @@ nav{
 /* section-2 */
 .section-2{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: center; */
     height: 382px;
     margin-right: 65px;
     margin-top: 25px;
 }
+
 .left-div{
     width: 100%;
-    margin-left: 290px;
 }
 .right-div{
     width: 100%;
@@ -119,7 +119,7 @@ nav{
     display: block;
     width: 518px;
     margin-left: auto;
-    margin-right: 308px;
+    margin-right: 0;
 }
 .left-p-1{
     margin-bottom: 27px;
@@ -201,7 +201,7 @@ nav{
 .section-4{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 210px;
 }
 .section-4-left-div{
@@ -282,7 +282,6 @@ nav{
 .input-field{
     width: 462px;
     height: 48px;
-    /* margin-right: -10px; */
 }
 .input-button{
     width: 140px;
@@ -301,75 +300,49 @@ form{
 footer{
     display: flex;
     background-color: #E5DEDE;
-    justify-content: center;
+    padding-top: 80px;
+    padding-left: 110px;
+    padding-bottom: 50px;
+    justify-content: space-between;
 }
-footer ul{
+.footer-div{
+    display: flex;
+    width: 750px;
+    justify-content: space-around;
+}
+.footer-div ul{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
-    margin-left: 110px;
+    line-height: 55px;
 }
-footer li{
-    display: flex;
-}
-.ul-wax{
-    font-size: 40px;
+.red-wax{
     color: red;
-    margin-bottom: 60px;
-    margin-right: 247px;
+    font-size: 40px;
     text-transform: uppercase;
-
+    margin-bottom: 60px;
 }
 .li-wax{
-    margin-bottom: 30px;
-    font-size: 14px;
-    /* margin-right: 14px; */
+    display: flex;
+    line-height: 65px;
+    align-items: center;
 }
 .fa-map-marker-alt{
-    margin-right: 14px;
+    margin-right: 16px;
 }
-.fa-envelope, .fa-phone-alt, .fa-map-marker-alt{
+.footer-logo{
     color: #BCBCBC;
 }
-.information{
-    font-size: 18px;
-    margin-bottom: 35px;
+.footer-ul-3{
+    padding-top: 53px;
 }
-.information-li{
-    margin-bottom: 30px;
-    font-size: 14px;
+.footer-title{
+    font-size: 18px;
     text-transform: capitalize;
+    font-weight: bold;
+}
+.footer-div-li{
     color: #777777;
 }
-.categories{
-    font-size: 18px;
-    margin-bottom: 35px;
-    margin-right: 25px;
-}
-.categories-li{
-    margin-bottom: 30px;
-    font-size: 14px;
-    text-transform: capitalize;
-    color: #777777;
-}
-.no-title-1{
-    margin-top: 134px;
-}
-.no-title-2{
-    margin-bottom: 30px;
-    font-size: 14px;
-    text-transform: capitalize;
-    color: #777777;
-}
-.my-account{
-    font-size: 18px;
-    margin-bottom: 35px;
-    margin-right: 25px;
-}
-.my-account-li{
-    font-size: 18px;
-    margin-bottom: 35px;
-    color: #777777;
 
-}
+
 /* end footer */
